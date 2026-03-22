@@ -33,4 +33,23 @@ I regularly solve problems from platforms like:
 
 ---
 
-## 📂 Structure
+
+## 📈 Progress
+- ✅ Easy Problems  
+- 🔄 Medium Problems  
+- ⏳ Hard Problems  
+
+---
+
+## 🌟 Connect With Me
+- GitHub: https://github.com/Rutuja1104  
+- LinkedIn: https://linkedin.com/in/rutujasahare  
+
+---
+
+## ✨ Note
+This repository reflects my learning journey and consistent efforts to become a better programmer.
+
+---
+
+⭐ If you find this helpful, feel free to star the repo!
