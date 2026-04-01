@@ -11,7 +11,7 @@ Sum = 16 > 12 ✅
 function isAbundant(num) {
     let sum = 0;
 
-    for (let i = 1; i <= num / 2; i++) {
+    for (let i = 1; i <= num / 2; i++) { // divide by 2 because no factor can be greater than half of the number
         if (num % i === 0) {
             sum += i;
         }

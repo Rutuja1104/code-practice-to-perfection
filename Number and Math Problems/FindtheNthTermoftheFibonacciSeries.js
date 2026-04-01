@@ -26,7 +26,7 @@ function fibonacci(n) {
     let a = 0, b = 1;
 
     for (let i = 3; i <= n; i++) {
-        [a, b] = [b, a + b];
+        [a, b] = [b, a + b]; // update a to b and b to a + b in one line using destructuring assignment
     }
 
     return b;

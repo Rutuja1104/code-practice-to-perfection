@@ -37,10 +37,10 @@ function primeFactors(num) {
 
     while (num % 2 === 0) {
         factors.push(2);
-        num /= 2;
+        num /= 2;// divide by 2 until it's no longer even
     }
 
-    for (let i = 3; i <= Math.sqrt(num); i += 2) {
+    for (let i = 3; i <= Math.sqrt(num); i += 2) {// check odd factors starting from 3 and Math.sqrt(num) because a larger factor must be paired with a smaller one
         while (num % i === 0) {
             factors.push(i);
             num /= i;
