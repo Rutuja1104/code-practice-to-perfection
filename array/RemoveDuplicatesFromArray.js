@@ -29,6 +29,17 @@ const uniqueArr = arr.filter((value, index, self) => {
 
 console.log(uniqueArr);
 
+
+
+const uniqueELE = arr.reduce((acc, curr) => {
+    if (!acc.includes(curr)) {
+        acc.push(curr);
+    }
+    return acc;
+}, []);
+
+console.log(uniqueELE);
+
 function removeDuplicates() {
     return arr1.filter((value, index, self) => index == self.findIndex(data => data?.id == value.id))
     // findIndex returns the index of the first element that satisfies the condition, 

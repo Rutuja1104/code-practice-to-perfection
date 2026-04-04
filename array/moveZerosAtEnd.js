@@ -5,7 +5,7 @@ Traverse array with i
 Swap when non-zero is found
  * @param {*} arr 
  * @returns 
- */
+ */ 
 
 function moveZeros(arr) {
     let j = 0; // position for next non-zero
