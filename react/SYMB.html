@@ -1,0 +1,112 @@
+
+<!--
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+  <style>
+    body {
+  margin: 0px;
+}
+.container {
+/*   display: flex;
+  flex-direction: row;
+  gap:10px;
+  padding:10px; */
+  display:grid;
+    grid-template-columns:repeat(3,1fr);
+  gap:40px;
+  padding:10px;
+}
+.box{
+/*   display: flex;
+  flex-direction: row; */
+  border: 1px solid black;
+  padding:30px;
+  text-align: center;
+  background-color: white;
+  grid-template-columns:repeat(2,1fr);
+/*   width: 100% */
+}
+.free-box{
+/*   width: 70% */
+    grid-column: 1 / span 2;
+
+}
+.blue-box{
+  background-color: lightblue;
+  border: none;
+/*     width: 30% */
+}
+.container-2{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:40px;
+}
+  </style>
+</head>
+
+<body>
+ <div class="container">
+   <div class="box">
+     <h3 class="heading">STANDARD</h3>
+     <h1 >$6 <span>/mph</span></h1>
+     <p> 8 photos listed</p>
+     <p> Full managed e-commerce</p>
+   </div>
+   
+    <div class="box">
+     <h3 class="heading">ADNVANCED</h3>
+     <h1 >$6 <span>/mph</span></h1>
+     <p> 8 photos listed</p>
+     <p> Full managed e-commerce</p>
+   </div>
+   
+    <div class="box">
+     <h3 class="heading">PROFESSIONAL</h3>
+     <h1 >$6 <span>/mph</span></h1>
+     <p> 8 photos listed</p>
+     <p> Full managed e-commerce</p>
+   </div>
+      <div class="box free-box">
+     <h3 class="heading">Free</h3>
+     <h1 >$6 <span>/mph</span></h1>
+     <p> 8 photos listed</p>
+     <p> Full managed e-commerce</p>
+   </div>
+   
+    <div class="box blue-box">
+     <h3 class="heading">ADNVANCED</h3>
+     <h1 >0 <span>/mph</span></h1>
+     <p> 8 photos listed</p>
+     <p> Full managed e-commerce</p>
+   </div>
+  </div>
+ 
+ 
+<!--    <div class="container-2">
+
+   <div class="box free-box">
+     <h3 class="heading">Free</h3>
+     <h1 >$6 <span>/mph</span></h1>
+     <p> 8 photos listed</p>
+     <p> Full managed e-commerce</p>
+   </div>
+   
+    <div class="box blue-box">
+     <h3 class="heading">ADNVANCED</h3>
+     <h1 >0 <span>/mph</span></h1>
+     <p> 8 photos listed</p>
+     <p> Full managed e-commerce</p>
+   </div>
+  </div> -->
+  <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
